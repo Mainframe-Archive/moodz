@@ -1,0 +1,1 @@
+/home/shane/scripts/nix/node.shell.nix

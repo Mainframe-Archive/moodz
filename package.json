@@ -1,21 +1,21 @@
 {
-  "name": "create-mainframe-dapp",
+  "name": "moodz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@mainframe/sdk": "^0.2.1",
     "@morpheus-ui/core": "^0.0.37",
-    "@morpheus-ui/fonts": "^0.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3",
-    "web3": "1.0.0-beta.37"
+    "react-scripts": "^2.1.3"
   },
   "homepage": "./",
   "scripts": {
     "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint ./src --fix",
     "test": "react-scripts test",
+    "test:types": "flow check",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
