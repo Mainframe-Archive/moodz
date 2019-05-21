@@ -981,6 +981,11 @@
     react-sizes "^1.0.4"
     styled-components "^4.0.3"
 
+"@morpheus-ui/fonts@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@morpheus-ui/fonts/-/fonts-0.0.1.tgz#a2e689a360505ed08e40b0e38ccfc915777a0318"
+  integrity sha512-XtbtoAb+Zv1FreyiKqIQ694KEwiYrPjAIBHyJxTcgGxz9pduHCKmcvkjlxw8xGVi+6nn/Ij2XboNhFlPpkpwBA==
+
 "@morpheus-ui/forms@0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@morpheus-ui/forms/-/forms-0.0.6.tgz#f5274a4670435576f3fa57bbb91fe5d8da65dff3"
