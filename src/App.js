@@ -129,6 +129,7 @@ export default class App extends Component<Props, State> {
     //$FlowFixMe
     this.state.contacts.push(contact)
     await this.fetchMood(contact)
+    this.forceUpdate()
   }
 
   setMood = async (mood: string) => {
