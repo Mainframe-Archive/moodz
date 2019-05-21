@@ -5,6 +5,7 @@ import MainframeSDK, { type Contact } from '@mainframe/sdk'
 import { Text, Button } from '@morpheus-ui/core'
 import styled from 'styled-components/native'
 import { Picker } from 'emoji-mart'
+import moment from 'moment'
 
 import Logo from './logo.png'
 
@@ -70,9 +71,9 @@ const ContactsMoodContainer = styled.View`
 `
 
 const ContactMood = styled.View`
-  width: 120px;
+  width: 140px;
   height: 140px;
-  padding: 20px;
+  padding: 20px 0;
   align-items: center;
   justify-content: space-around;
   background-color: #3a3a3a;
@@ -150,7 +151,7 @@ export default class App extends Component<Props, State> {
           {data.profile.name}
         </Text>
         <Text color="white" size={10} italic>
-          {timestamp || 'never'}
+          {timestamp ? moment(timestamp).format('LLL') : 'never'}
         </Text>
       </ContactMood>
     )
